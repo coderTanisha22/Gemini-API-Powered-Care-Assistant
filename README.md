@@ -164,16 +164,9 @@ npm run dev
 
 Frontend: `http://localhost:8080`
 
-## Current Risks / Improvement Targets
+## Improvement Targets
 
-1. Replace hardcoded frontend API URLs with `VITE_API_BASE_URL`.
-2. Implement actual route pages for `/alerts`, `/activity`, and `/settings`.
-3. Add persistent storage layer for events and alert actions.
-4. Fill scaffolded backend modules (`db`, `pipelines`, `schemas`) with integrated logic.
-5. Add stronger automated tests (backend service tests + frontend behavior tests).
-6. Complete Docker definitions for reproducible local/dev deployment.
-
-## Note
+Many areas are intentionally simplified or scaffolded for this demo prototype.
 
 This is currently a demo build for the proposal. Active development is in progress.
 
